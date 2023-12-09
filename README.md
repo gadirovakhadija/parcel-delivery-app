@@ -1,7 +1,7 @@
 # PARCEL DELIVERY APPLICATION
 
 
-This application is a simple parcel delivery application created to demonstrate Microservice Architecture Model using Spring Boot, Spring Cloud, Rabbitmq and Docker. The project is intended as a tutorial, but you can fork it and turn it into something else!
+This application is a simple parcel delivery application created to demonstrate Microservice Architecture Model using Spring Boot, Spring Cloud, Rabbitmq and Docker.
 
 While designing the architecture, the CQRS pattern was applied. Data is divided into two as command and query. Rabbitmq is used for inter-service communication
 
