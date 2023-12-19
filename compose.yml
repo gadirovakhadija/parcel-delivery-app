@@ -33,7 +33,7 @@ services:
 
   authms:
     restart: always
-    image: furkansavsatli/savsatli:auth-service
+    image: khadijagadirova/gadirova:auth-service
     ports:
       - '8081:8081'
     environment:
@@ -47,7 +47,7 @@ services:
 
   gatewayms:
     restart: always
-    image: furkansavsatli/savsatli:gateway-service
+    image: khadijagadirova/gadirova:gateway-service
     ports:
       - '9991:9991'
     environment:
@@ -58,7 +58,7 @@ services:
 
   orderms:
     restart: always
-    image: furkansavsatli/savsatli:order-service
+    image: khadijagadirova/gadirova:order-service
     ports:
       - '8082:8082'
     links:
@@ -72,7 +72,7 @@ services:
 
   shipmentms:
     restart: always
-    image: furkansavsatli/savsatli:shipment-service
+    image: khadijagadirova/gadirova:shipment-service
     ports:
       - '8083:8083'
     links:
@@ -86,7 +86,7 @@ services:
 
   queryms:
     restart: always
-    image: furkansavsatli/savsatli:query-service
+    image: khadijagadirova/gadirova:query-service
     ports:
       - '8084:8084'
     links:
@@ -100,7 +100,7 @@ services:
 
   parceldelivery:
     restart: always
-    image: furkansavsatli/savsatli:parcel-delivery-application
+    image: khadijagadirova/gadirova:parcel-delivery-application
     ports:
       - '8080:8080'
     environment:
